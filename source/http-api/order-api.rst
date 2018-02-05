@@ -38,7 +38,7 @@ Market Order Place
             * ``amount`` *(required)* *(float)* - count or amount.
             * ``price`` *(optional)* *(float)* - price.
         .. note::
-* ``side`` 1: sell, 2: buy.
+            * ``side`` 1: sell, 2: buy.
             * ``amount`` count or amount. At market price buy "amount" means spend your stock(usually"BTC"),
                 at market price sell "amount" means the coin count you sold.
             * ``price`` price. If your URL body doesn't have price params that means Market Order, else means Limit Order.
