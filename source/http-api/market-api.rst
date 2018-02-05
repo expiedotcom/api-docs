@@ -242,11 +242,12 @@ Market Order Place
         **Parameters**:
             * ``side`` *(required)* *(int)* - trade type, for example *(1)*.
             * ``amount`` *(required)* *(float)* - count or amount.
-            * ``price`` *(required)* *(float)* - price.
+            * ``price`` *(optional)* *(float)* - price.
         .. note::
             * ``side`` 1: sell, 2: buy.
-            * ``amount`` count or amount.
-            * ``price`` price, price is null means market order; price is not null means Limit Order.
+            * ``amount`` count or amount. At market price buy "amount" means spend your stock(usually"BTC"),
+                at market price sell "amount" means the coin count you sold.
+            * ``price`` price. If your URL body doesn't have price params that means Market Order, else means Limit Order.
 
 Market Order Cancel
 -------------------
