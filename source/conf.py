@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Expie api documentation build configuration file, created by
+# Expie API documentation build configuration file, created by
 # sphinx-quickstart on Thu Feb  1 10:08:11 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Expie api'
+project = u'Expie API'
 copyright = u'2018, expie'
 author = u'expie'
 
@@ -138,7 +138,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Expieapi.tex', u'Expie api Documentation',
+    (master_doc, 'Expieapi.tex', u'Expie API Documentation',
      u'expie', 'manual'),
 ]
 
@@ -148,7 +148,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'expieapi', u'Expie api Documentation',
+    (master_doc, 'expieapi', u'Expie API Documentation',
      [author], 1)
 ]
 
@@ -159,7 +159,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Expieapi', u'Expie api Documentation',
+    (master_doc, 'Expieapi', u'Expie API Documentation',
      author, 'Expieapi', 'One line description of project.',
      'Miscellaneous'),
 ]
