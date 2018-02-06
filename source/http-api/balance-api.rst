@@ -4,10 +4,10 @@
 Balance API
 ********************************************************************************
 
-Balance summery
+Balance summary
 ---------------
 
-**GET /balance/summery**
+**GET /balance/summary**
 
         **Example response**::
 

@@ -1,13 +1,13 @@
-.. _market-api:
+.. _markets-api:
 
 ********************************************************************************
-Market API
+Markets API
 ********************************************************************************
 
-Market
+Markets
 ------
 
-**GET /market**
+**GET /markets**
 
         **Example response**::
 
@@ -40,12 +40,12 @@ Market
                 }
             ]
 
-Market Depth
+Markets Depth
 ------------
 
-**GET /market/{market}/depth**
+**GET /markets/{market}/depth**
 
-        Example url: /market/BCCBTC/depth
+        Example url: /markets/BCCBTC/depth
 
         **Example response**::
 
@@ -77,12 +77,12 @@ Market Depth
         **URL**:
             * ``market`` *(required) - market name, for example *(BCCBTC)*.
 
-Market Ticker
+Markets Ticker
 -------------
 
-**GET /market/{market}/ticker**
+**GET /markets/{market}/ticker**
 
-        Example url: /market/BCCBTC/ticker
+        Example url: /markets/BCCBTC/ticker
 
         **Example response**::
 

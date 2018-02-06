@@ -7,7 +7,7 @@ Order API
 Market Order Place
 ------------------
 
-**POST /market/{market}/order/place**
+**POST /markets/{market}/orders**
 
         **Example response**::
 
@@ -46,9 +46,9 @@ Market Order Place
 Market Order Cancel
 -------------------
 
-**POST /market/{market}/order/{orderId}/cancel**
+**POST /markets/{market}/orders/{orderId}/_cancel**
 
-        Example url: /market/BCCBTC/order/2168/cancel
+        Example url: /markets/BCCBTC/orders/2168/_cancel
 
         **Example response**::
 
@@ -78,9 +78,9 @@ Market Order Cancel
 Market Order Pending
 --------------------
 
-**GET /market/{market}/order/pending**
+**GET /markets/{market}/orders/_pending**
 
-        Example url: /market/BTGBTC/order/pending?limit=10&offset=0
+        Example url: /markets/BTGBTC/orders/_pending?limit=10&offset=0
 
         **Example response**::
 
@@ -120,9 +120,9 @@ Market Order Pending
 Market Order Details
 --------------------
 
-**GET /market/{market}/order/{orderId}/details**
+**GET /markets/{market}/orders/{orderId}**
 
-        Example url: /market/BTGBTC/order/13479/details
+        Example url: /markets/BTGBTC/orders/13479
 
         **Example response**::
 
@@ -151,9 +151,9 @@ Market Order Details
 Market Order Finished
 ---------------------
 
-**GET /market/{market}/order/finished**
+**GET /markets/{market}/orders/_finished**
 
-        Example url: /market/BCCBTC/order/finished?limit=10&offset=0
+        Example url: /markets/BCCBTC/orders/_finished?limit=10&offset=0
 
         **Example response**::
 

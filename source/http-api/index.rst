@@ -8,5 +8,5 @@ HTTP-API
 
    general-usage.rst
    order-api.rst
-   market-api.rst
+   markets-api.rst
    balance-api.rst
