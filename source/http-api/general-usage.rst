@@ -23,7 +23,7 @@ Python:
     domain = 'api.expie.com'
     rootPath = '/v1'
     url = 'https://' + domain + rootPath + '/markets'
-    token = e0b20185864172a0e209836e29d94be9fd2ca85c0a3ef4641f502d3c085820ea
+    token = 'e0b20185864172a0e209836e29d94be9fd2ca85c0a3ef4641f502d3c085820ea'
     request = urllib2.Request(url)
     request.add_header("Authorization", "Bearer" + token)
 
